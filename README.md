@@ -6,9 +6,14 @@ brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/7e703
 brew cask install vagrant
 
 vagrant up --provider=virtualbox
+vagrant reload
+vagrant ssh
+vagrant destroy
+
+ssh vagrant@192.168.0.33.10
 ```
 
 ## Resource
 
-- http://minimum-viable-automation.com/vagrant/setup-simple-vagrant-box-ansible-examples
 - https://medium.com/@AnnaJS15/getting-started-with-virtualbox-and-vagrant-8d98aa271d2a
+- https://symfonycasts.com/screencast/ansible/vagrant-ansible
