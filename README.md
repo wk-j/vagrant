@@ -10,8 +10,10 @@ vagrant reload
 vagrant ssh
 vagrant provision
 vagrant destroy -f
+vagrant ssh-config
 
 ssh vagrant@192.168.0.33.10
+ssh vagrant@127.0.0.1 -p 2222 -i .vagrant/machines/default/virtualbox/private_key
 ```
 
 ## Resource
