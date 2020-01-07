@@ -8,7 +8,7 @@ brew cask install vagrant
 vagrant up --provider=virtualbox
 vagrant reload
 vagrant ssh
-vagrant destroy
+vagrant destroy -f
 
 ssh vagrant@192.168.0.33.10
 ```
